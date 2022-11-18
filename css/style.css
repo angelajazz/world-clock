@@ -1,5 +1,29 @@
+@keyframes color {
+  0% {
+    background: #8ef6e4;
+  }
+  20% {
+    background: #9896f1;
+  }
+  40% {
+    background: #d59bf6;
+  }
+  60% {
+    background: #edb1f1;
+  }
+  80% {
+    background: #9896f1;
+  }
+  100% {
+    background: #8ef6e4;
+  }
+}
+
 body {
-  background-color: #f9f7fe;
+  background: #33cccc; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
   font-family: sans-serif;
 }
 
@@ -25,7 +49,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #fbf2d5;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
